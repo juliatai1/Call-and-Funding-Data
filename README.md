@@ -13,9 +13,12 @@ How have the proportion of calls handled by different agencies changed over time
 Cad Data (unavailable to public): 
 - 18 columns:
   'Call_Created_Time': call created time, type = datetime object 
-  'PrimaryUnitCallSign': primary unit call sign, values = "cahoots", "other agency"
-  'Disposition': disposition/type of call, sorted by calls implying an angency responded, showed up to an event and performed an action
+  'PrimaryUnitCallSign': primary unit call sign, values = "Cahoots", "Other Agency"
+  'Disposition': disposition/type of call, sorted by calls implying an angency responded, showed up to an event, and performed an action
 
-Financial data: 
-- Police, EMS, Fire Annual Funding: Used the expense values from the city annual financial for 2016-2021. Note: the total funding value, therefore did not include annual grant or donation amounts. Source: https://www.eugene-or.gov/107/Financial-Reports
-- Cahoots Annual Funding: Used the revenue total per year from 2016-2021. Note: this includes all grant and donation amounts. Source: https://projects.propublica.org/nonprofits/organizations/930585814 
+Financial data:
+- 3 columns:
+  'Year': year (2016 - 2022), type: integer
+  'Agency': agency ('White Bird' or 'Other Agency'), type: string
+- Police, EMS, Fire Annual Funding: Used the expense values from the city annual financial for 2016-2022. Note: the total funding value, therefore did not include annual grant or donation amounts. Source: https://www.eugene-or.gov/107/Financial-Reports
+- Cahoots Annual Funding: Used the revenue total per year from 2016-2022. Note: this includes all grant and donation amounts. Cahoots is an extension of White Bird. Considering other agencies have additional operational functions beyond responding to calls, funding reflected White Bird and not just the amount allocated to Cahoots. This made comparing other agencies and White Bird funding more realistic. Source: https://projects.propublica.org/nonprofits/organizations/930585814 
