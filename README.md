@@ -25,6 +25,8 @@ Financial data:
   'Year': year (2016 - 2022), type: integer
   
   'Agency': agency ('White Bird' or 'Other Agency'), type: string
+
+  'Annual Funding': Annual Funding, type: float
   
 - Police, EMS, Fire Annual Funding: Used the expense values from the city annual financial for 2016-2022. Note: the total funding value, therefore did not include annual grant or donation amounts. Source: https://www.eugene-or.gov/107/Financial-Reports
 - Cahoots Annual Funding: Used the revenue total per year from 2016-2022. Note: this includes all grant and donation amounts. Cahoots is an extension of White Bird. Considering other agencies have additional operational functions beyond responding to calls, funding reflected White Bird and not just the amount allocated to Cahoots. This made comparing other agencies and White Bird funding more realistic. Source: https://projects.propublica.org/nonprofits/organizations/930585814 
