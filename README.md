@@ -10,10 +10,13 @@ This project analyzes and compares financial reports and call volume data for ca
 How have the proportion of calls handled by different agencies changed over time? Has this proportion been affected by increases in cahoots capacity or differences in funding for each agency?
 
 ## Data sets used and cleaned
+2 seperate scrips:
+- cleaning
+- analysis
 Cad Data (unavailable to public): 
 - 18 columns total, 3 columns used:
   
-  'Call_Created_Time': call created time, type = datetime object
+  Column 1: 'Call_Created_Time': call created time, type = datetime object
   
   'PrimaryUnitCallSign': primary unit call sign, values = "Cahoots", "Other Agency"
   
