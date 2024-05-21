@@ -12,8 +12,10 @@ How have the proportion of calls handled by different agencies changed over time
 ## Data sets used and cleaned
 Cad Data (unavailable to public): 
 - 18 columns:
-  'Call_Created_Time': call created time, type = datetime object 
+  'Call_Created_Time': call created time, type = datetime object
+  
   'PrimaryUnitCallSign': primary unit call sign, values = "Cahoots", "Other Agency"
+  
   'Disposition': disposition/type of call, sorted by calls implying an angency responded, showed up to an event, and performed an action
 
 Financial data:
