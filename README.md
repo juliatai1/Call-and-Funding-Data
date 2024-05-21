@@ -1,8 +1,8 @@
-# Call-and-Funding-Data
+## Call-and-Funding-Data
 
-Description
+# Description
 
-Data sets used
+# Data sets used
 - Cad Data: 18 columns ('Unnamed: 0', 'IncidentNumber', 'Call_Created_Time',
        'Call_First_Dispatched_Time', 'Call_First_On_Scene', 'Call_Cleared',
        'Call_Zipcode', 'Beat', 'Call_Source', 'Call_Priority',
@@ -11,4 +11,4 @@ Data sets used
        'Unit_Cleared_Time', 'Disposition')
 - Financial data
 
-Key Functions 
+# Key Functions 
