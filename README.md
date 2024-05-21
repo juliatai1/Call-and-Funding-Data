@@ -11,7 +11,7 @@ How have the proportion of calls handled by different agencies changed over time
 
 ## Data sets used and cleaned
 Cad Data (unavailable to public): 
-- 18 columns:
+- 18 columns total, 3 columns used:
   
   'Call_Created_Time': call created time, type = datetime object
   
