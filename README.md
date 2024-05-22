@@ -10,8 +10,6 @@ This project analyzes and compares financial reports and call volume data for ca
 How have the proportion of calls handled by different agencies changed over time? Has this proportion been affected by increases in cahoots capacity or differences in funding for each agency?
 
 ## Data sets used and cleaned
-2 seperate scripts:
-
 Cleaning Script: cleans/formats and creates all necessary data (CAD and Financial).
   
 Analysis Script: 
