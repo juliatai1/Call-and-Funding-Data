@@ -89,25 +89,44 @@ Source: https://projects.propublica.org/nonprofits/organizations/930585814
 ## Analytical Steps
 Visuals and Statistics:
 1.	Load Data: cleaned cad data (new_call), monthly call data (monthly_calls), daily call data (daily_call), financial data (finance_merged)
-2.	Annual Funding: 
+2.	Annual Funding:
+   
 •	Input: finance_data
+
 •	Output: bar plot using matplot and seaborn
-3.	Call Volume: line graph using matplot, records the total number of calls through time, a vertical line is placed where there is an addition of a new van
+
+4.	Call Volume: line graph using matplot, records the total number of calls through time, a vertical line is placed where there is an addition of a new van
+   
 •	Input: monthly_calls
+
 •	Output: line graph using matplot, records the total number of calls through time, a vertical line is placed where there is an addition of a new van
-4.	Average Number of Calls per Dollar of Funding: 
+
+6.	Average Number of Calls per Dollar of Funding:
+   
 •	Input: new_call
+
 •	Output: bar plot using matplot and seaborn, primary graph in comparing the efficiencies of Police and White Bird
-5.	P-values: 
+
+8.	P-values:
+   
 •	Input: daily_calls, average daily call volume one year before and after the event
+
 •	Output: p-values for Police + Cahoots, Police, and Cahoots. Used the scipy.stats package
-6.	Z-score:
+
+10.	Z-score:
+    
 •	Inputs for the function:
-•	x1 = number of successes or events of interest in the first group
-•	n1 = total number of trials/observations in the first group
-•	x2 = number of success/events of interest in the second group
-•	n2 = total number of trials/observations in the second group
+
+  •	 x1 = number of successes or events of interest in the first group
+  
+  •	n1 = total number of trials/observations in the first group
+  
+  •	x2 = number of success/events of interest in the second group
+  
+  •	n2 = total number of trials/observations in the second group
+  
 •	Input: daily_calls (for cahoots)
+
 •	Output: z-score, determines if the proportion of calls before and after the event were significantly different
 
 Relevant packages: pandas, numpy, scipy.stats, statistics, seaborn, matplotlib.pyplot, matplotlib.dates
