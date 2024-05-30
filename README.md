@@ -49,7 +49,8 @@ Relevant packages: pandas, numpy, datetime
 Cad Data (unavailable to public): 
 
 monthly_calls dataframe: 
-
+- 3 Columns:
+  
   Column 1: 'PrimaryUnitCallSign' = primary unit call sign, values = "Cahoots", "Police", type = string object
   
   Column 2: 'Year_Month' = granularity of the dataframe is month, dates = 2016-01-01 to 2023-12-01, type = string object
@@ -57,6 +58,7 @@ monthly_calls dataframe:
   Column 3: 'Call_Volume' = total call volume for the agency that month, type = integer
 
 daily_calls dataframe:
+- 3 Columns:
 
   Column 1: 'PrimaryUnitCallSign' = primary unit call sign, values = "Cahoots", "Police", type = string object
   
