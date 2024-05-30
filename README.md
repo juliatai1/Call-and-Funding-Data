@@ -112,6 +112,8 @@ Visuals and Statistics:
 
 Relevant packages: pandas, numpy, scipy.stats, statistics, seaborn, matplotlib.pyplot, matplotlib.dates
 
+
+
 (*) = Disposition reasoning
 
 Values implying an agency went to an event, located and performed an action at the incident: 
