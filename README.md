@@ -14,7 +14,8 @@ How have the proportion of calls handled by different agencies changed over time
 The questions I have posed get at the heart of cahoots’ mission statement and their efforts to provide a more equitable and community/client focused alternative to the police. By analyzing calls in parallel with funding, I can create a data driven story about the relationship between cahoots and police.
 
 ## Data sets used and cleaned
-Cleaning Script: cleans/formats and creates all necessary data (CAD and Financial).
+
+**Cleaning Script:** cleans/formats and creates all necessary data (CAD and Financial).
   Overview of the process: 
 
 Cad Data:
@@ -42,7 +43,8 @@ Financial Data:
 
 Relevant packages: pandas, numpy, datetime
 
-Final dataframes used in Analysis Script: 
+
+**Final dataframes used in Analysis Script:**
   
 Cad Data (unavailable to public): 
 
