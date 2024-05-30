@@ -200,10 +200,12 @@ Values implying an agency did not go to an event, locate, or perform an action a
 'CANCEL FIRE UNIT FROM CALL'
 
 Additional explanation:
+
 'DEAD ON ARRIVAL': were not able to perform an action
 'REFUSED SERVICES': were not able to perform an action
 
-Unclear: not reporting this
+Unclear: (not reporting this)
+
 'RIGHT OF WAY CAMPING'
 'SPX'
 'SEND PCR REPORT'
